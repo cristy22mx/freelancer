@@ -1,3 +1,285 @@
 /*
- * Estilos de tu proyecto
+ * Estilos de tu proyecto #2c3e50, #18bc9c, #212529
  */
+/*Defición de las propiedades generales del sitio*/
+body{ 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/*Defición de la sección del menu y cover*/
+
+.menu {
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight:  700;
+	padding-bottom: 80px; 
+	margin-top: 2.5em;
+	
+}
+
+/*hr{ background color: white; 
+	height: 2px;}*/
+
+ul>li {
+	display: inline-block;
+	padding-right: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+.menu1:hover{
+	color: #18bc9c
+}
+
+ul{  }
+
+header{
+	background:#2c3e50;
+	color: white;
+	width: auto;
+	height: 110px;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	float: left;
+	font-size: 30px;
+	font-weight: 700;
+	left: 90px;
+	margin: 30px 100px;
+}
+
+/*Defición de la sección de cover*/
+
+.cover {
+	background:#18bc9c; 
+	height: 685px;
+	text-align: center;
+	color: white;
+	font-weight: 10px;
+}
+
+.cover > img{
+	margin-top:95px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin-left: 500px;
+}
+
+h1{
+	font-size: 55px;
+}
+
+h2{ 
+	text-align: center;
+	font-size: 35px
+}
+
+h3{
+	font-size: 25px;
+}
+
+/*Defición de la sección de portfolio*/
+
+.portfolio{
+	height: 825px;
+	background: white;
+
+}
+
+#portfolio .catalogo > div > img{
+	width: 350px;
+	height: 255px;
+} 
+
+.catalogo {
+	padding-left: 100px;
+}
+
+#portfolio .catalogo > div{
+	display: inline-block;
+	/*width: 27%;*/
+  	margin: 15px;
+
+}
+
+/*Defición de la sección de about*/
+.aboute{
+	height: 48px;
+	font-weight: 700;
+	color: white;
+}
+	
+#about{
+    background-color: #18BC9C ;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.start3 {
+ color: #fff;
+ background-color: #fff;
+
+}
+.fa-download {
+ left: 5px;
+}
+
+p {
+ color: #FFF;
+    width: 30%;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 1em;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 2em;
+    vertical-align: top;
+
+}
+
+.btn-dwl {
+ background-color: #18BC9C ;
+    font-size: 20px;
+    border: 2px solid #fff;
+ color: #fff;
+    border-radius: 6px;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 0 40%;
+
+}
+.btn-dwl:hover {
+background-color: #fff;
+    color: #18BC9C ;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+/*Definición de sección contacto*/
+#contact {
+    background-color: #FFF;
+    width: 100%;
+    height: 850px;
+    text-align: center;
+}
+
+.contact1{
+ font-size: 50px;
+ padding-top:50px;
+ text-transform: uppercase;
+ font-family: Montserrat, sans-serif;
+ padding-bottom: 50px;
+ margin: 0;
+ padding:0;
+
+}
+
+.contactstar{
+ width: 340px;
+ height: 3px;
+ text-align: center;
+ display: inline-block;
+ margin-left: 15px;
+ color: #2c3e50 ;
+ background-color: #2c3e50 ;
+
+}
+
+input{
+    width: 60%;
+    font-size: 25px;
+    border-bottom: #EEEEEE solid 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 2em;
+    padding-bottom: 20px;
+ 	margin-left: 200px;
+}
+
+
+input::placeholder{
+    color: #A4A8AA ;
+}
+input:focus{
+    outline: none;
+}
+
+
+#message{
+    padding-bottom: 8em;
+}
+
+.send-div {
+    text-align: center;
+    margin-top: 3em;
+    width: 45%;
+}
+#send {
+    font-size: 25px;
+    padding: 0.7em;
+    border-radius: 5px;
+    border: none;
+    background-color: #18BC9C ;
+    color: #FFF;
+ 	margin-left: 200px;
+
+}
+
+#send:hover {
+    background-color: #107C68 ;
+
+}
+#send:focus {
+    outline: none;}
+
+/*Defición de la sección de footer*/
+
+footer {
+    background: #2c3e50 ;
+    color:white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;}
+
+
+footer > div > h3 {
+    display: inline-block;
+    font-size: 10px;
+}
+
+footer > div > p {
+    text-align: center;
+   font-size: 10px;
+}
+.copy {
+    color: white;
+    text-align: center;
+    background: #2c3e50 ;
+    font-size: 10px; 
+
+}
+
+
+.foot {
+    display: inline-block;
+    width: 29%;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+
+
