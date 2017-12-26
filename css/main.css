@@ -152,10 +152,10 @@ p {
 }
 
 .btn-dwl {
- background-color: #18BC9C ;
+    background-color: #18BC9C ;
     font-size: 20px;
     border: 2px solid #fff;
- color: #fff;
+    color: #fff;
     border-radius: 6px;
     padding: 10px 15px;
     text-align: center;
@@ -211,7 +211,7 @@ input{
  	margin-left: 200px;
 }
 
-
+/*con paceholder se pone el texto en gris y se quita cuando ingrese el dato*/
 input::placeholder{
     color: #A4A8AA ;
 }
@@ -236,8 +236,7 @@ input:focus{
     border: none;
     background-color: #18BC9C ;
     color: #FFF;
- 	margin-left: 200px;
-
+    margin-right:1000px;
 }
 
 #send:hover {
